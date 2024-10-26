@@ -1,0 +1,6 @@
+CREATE TABLE usr_pass (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100),
+    pass VARCHAR(100),
+    date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
